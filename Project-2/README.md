@@ -1,19 +1,19 @@
-Introduction
+Introduction:
 The Calculator project is a fundamental desktop application that demonstrates the essential capabilities of Java programming and GUI development. As one of the most basic yet practical software tools, a calculator performs arithmetic operations such as addition, subtraction, multiplication, and division. This project aims to simulate a standard calculator with a graphical user interface (GUI) using Java Swing. While the logic behind arithmetic computation is straightforward, the implementation involves crucial programming skills including event handling, input validation, and user interface design. By building this application, learners gain experience in structuring Java programs, handling user interactions, and updating the interface dynamically based on user inputs. The calculator is ideal for beginners, serving as a stepping stone to more complex Java projects involving logic, data processing, and UI responsiveness.
 
-Objective
+Objective:
 The primary objective of this Calculator project is to create a user-friendly and interactive desktop application that can perform basic mathematical operations accurately and efficiently. The application is designed to accept numerical input from users via buttons, display the entered numbers and operations on a screen, and show results after computation. It helps students understand how to use Java’s GUI components, handle events triggered by button clicks, and process mathematical expressions in real time. The focus is on clarity, usability, and accuracy, ensuring the application responds correctly to user input and displays meaningful output.
 
-Technologies Used
+Technologies Used:
 The calculator is built using Java, specifically utilizing the Swing toolkit for GUI construction. The main components include JFrame for the application window, JTextField for the display screen, and JButtons for numbers and operations. Layout managers such as GridLayout or BorderLayout help organize the interface logically and symmetrically. The core logic is implemented using event listeners, where each button triggers a specific action to update the display or perform a calculation. Java's platform independence ensures the application runs seamlessly on any operating system with the Java Runtime Environment (JRE) installed. Development and debugging are facilitated through popular IDEs like Eclipse or IntelliJ IDEA.
 
-Features
+Features:
 This calculator application provides a clean interface that supports standard operations like addition, subtraction, multiplication, and division. Users can input numbers by clicking the digit buttons and perform operations using the corresponding symbols. The result is shown immediately when the equals button is pressed. The calculator also includes features such as clearing the screen, handling decimal inputs, and preventing invalid expressions. The design ensures that user errors like dividing by zero or entering multiple operators consecutively are handled gracefully through basic validation techniques. The interface is intuitive, responsive, and lightweight, with no need for external libraries or dependencies.
 
-Project Design
+Project Design:
 The project follows a simple and modular design, with a single class or multiple classes managing different responsibilities such as the UI layout, event handling, and arithmetic logic. The main window is created using JFrame, which houses a display field and a panel of buttons. Each button is assigned an ActionListener to respond to user input. Numbers and operations are stored in variables as strings or doubles, and evaluated once the user requests a result. The eval() logic is manually coded to interpret the input string or handled with conditional statements, ensuring transparency and control over the computation process. The display is updated in real time as users interact with the calculator.
 
-Future Enhancements
+Future Enhancements:
 Future versions of the calculator could include support for more complex operations such as square roots, exponentiation, and parentheses for expression grouping. A scientific mode with trigonometric functions, logarithms, and memory features could also be added. Enhancing the visual appearance with custom themes or animation effects could improve the user experience. Further, integrating keyboard input support, sound feedback, or history tracking would make the application more robust and interactive. Eventually, the calculator could be ported to mobile platforms using Android SDK or turned into a web-based tool using JavaScript and a Java backend.
 
 Conclusion
